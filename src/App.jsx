@@ -10,10 +10,10 @@ function App() {
 
   return (
     <div className='container' style={{ backgroundColor: bgColor }}>
-      <button className='btn' onClick={() => changeColor('red')}>RED</button>
-      <button className='btn' onClick={() => changeColor('green')}>GREEN</button>
-      <button className='btn' onClick={() => changeColor('blue')}>BLUE</button>
-      <button className='btn' onClick={() => changeColor('yellow')}>YELLOW</button>
+      <button className='btn red' onClick={() => changeColor('red')}>RED</button>
+      <button className='btn green' onClick={() => changeColor('green')}>GREEN</button>
+      <button className='btn blue' onClick={() => changeColor('blue')}>BLUE</button>
+      <button className='btn yellow' onClick={() => changeColor('yellow')}>YELLOW</button>
     </div>
   );
 }
